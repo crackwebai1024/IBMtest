@@ -1,0 +1,59 @@
+@import url( 'https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css');
+
+.icons {
+  font-size: 300%;
+  margin: 10%;
+}
+
+h2 {
+  font: 120 40px/1.8 'Arizonia', Helvetica, sans-serif;
+  color: white;
+  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); 
+  margin-bottom: 150px;
+}
+
+
+h3 {
+  font: 400 100px/1.2 'Merienda One', Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  text-shadow: 3px 3px 3px #fff;
+}
+
+.react-h5-audio-player .toggle-play-wrapper .toggle-play-button {
+  background-color: #4ab19a !important;
+}
+.react-h5-audio-player .toggle-play-wrapper .toggle-play-button i {
+  box-shadow: #4ab19a 7px 0px 0px 0px inset !important
+}
+
+.react-h5-audio-player .flex {
+  box-shadow: none !important;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+
+}
+@media screen and (max-width: 992px) {
+  body {
+    font-size: .9rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  body {
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  body {
+    font-size: .7rem;
+  }
+
+  .icons {
+    margin: 20px;
+  }
+}
